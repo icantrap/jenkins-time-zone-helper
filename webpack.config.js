@@ -13,7 +13,8 @@ const config = {
         filename: 'bundle/[name].js'
     },
     plugins: [
-        new WebpackNotifierPlugin({alwaysNotify: true})
+        new WebpackNotifierPlugin(),
+        new webpack.ProvidePlugin({$: 'jquery'})
     ]
 };
 

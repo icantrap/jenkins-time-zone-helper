@@ -2,5 +2,11 @@
   "name": "Jenkins Time Zone Helper",
   "version": "0.1.0",
   "description": "Converts times on Jenkins pages to local time zones",
-  "manifest_version": 2
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["https://*/*"],
+      "js": ["bundle/content.js"]
+    }
+  ]
 }

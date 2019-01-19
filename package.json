@@ -18,5 +18,7 @@
     "webpack-cli": "^3.2.1",
     "webpack-notifier": "^1.7.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
